@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="imc.css">
+</head>
+<body>
+    <header>
+        <h1>calculadora de IMC</h1>
+    </header>
+    <section>
+        <div>
+            <p>coloque seu peso e sua altura:</p>
+            <input type="text" id="peso" placeholder="peso (KG)">
+            <input type="text" id="altura" placeholder="altura (M)">
+            <input type="button" value="verificar" onclick="calcularIMC()"> 
+            <p id="resultado"></p>
+        </div>
+    </section>
+    <footer>&copy; Little King</footer>
+    <script src="imc.js"></script>
+</body>
+</html>
